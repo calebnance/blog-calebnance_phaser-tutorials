@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Phaser Sprite Move Face Tacking | RPG Tutorial 10</title>
+    <meta name="description" content="Phaser sprite move face tracking, creating a RPG Tutorial 10">
+    <meta name="author" content="Caleb Nance" />
+    <meta property="article:author" content="Caleb Nance" />
+    <meta name="robots" content="index, follow" />
+    <meta name="keywords" content="phaser, start, example, tutorial, rpg" />
+    <script src="js/phaser.min.js"></script>
+    <style>
+      body {
+        color: #24292e;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        font-size: 14px;
+        line-height: 1.5;
+      }
+
+      div {
+        float: left;
+      }
+
+      .container-game {
+        margin-bottom: 10px;
+        margin-right: 10px;
+      }
+
+      .container-video {
+        background-color: #9f9f9f;
+        display: block;
+        height: 240px;
+        width: 320px;
+      }
+
+      .movement-state {
+        background-color: #fff;
+        margin: 2px 0 0 2px;
+        padding: 6px 12px;
+        position: absolute;
+      }
+
+      #canvas,
+      #video {
+        position: absolute;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Phaser - Sprite Move Face Tracking<small>:: RPG Tutorial 10</small></h1>
+
+    <div class="container-game" id="tutorial-10"></div>
+    <div class="container-video">
+      <video id="video" width="320" height="240" preload autoplay loop muted></video>
+      <canvas id="canvas" width="320" height="240"></canvas>
+      <div class="movement-state">can't move</div>
+    </div>
+
+    <!-- face tracking js :: https://trackingjs.com -->
+    <script src="js/tracking-min.js"></script>
+    <script src="js/face-min.js"></script>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
