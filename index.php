@@ -69,12 +69,6 @@
       <li>
         <a href="10-sprite-move-face-tracking">10 :: Sprite Move Face Tracking</a>
       </li>
-      <li>
-        <a href="11-mobile-controller">11 :: Mobile Controller</a>
-      </li>
-      <li>
-        <a href="12-sprite-move-diagonally">12 :: Sprite Move Diagonally</a>
-      </li>
     </ul>
   </body>
 </html>
